@@ -1,0 +1,44 @@
+{
+	"expo": {
+		"name": "twitter-clone",
+		"scheme": "twitter-clone",
+		"slug": "twitter-clone",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/logo.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/images/logo.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"runtimeVersion": {
+				"policy": "appVersion"
+			}
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/images/logo.png",
+				"backgroundColor": "#ffffff"
+			},
+			"package": "com.anonymous.twitterclone",
+			"runtimeVersion": "1.0.0"
+		},
+		"web": {
+			"favicon": "./assets/images/logo.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "9fe2a624-7f22-4fcb-9827-feed6c9502ee"
+			}
+		},
+
+		"updates": {
+			"url": "https://u.expo.dev/9fe2a624-7f22-4fcb-9827-feed6c9502ee"
+		},
+		"plugins": ["expo-router"]
+	}
+}
