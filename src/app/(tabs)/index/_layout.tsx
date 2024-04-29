@@ -3,6 +3,9 @@ import { Stack } from "expo-router";
 export default function Layout() {
 	return (
 		<Stack>
+{/* two screens one called index and the other modal  defined using the Stack.Screen*/}
+{/* info in docs:  https://reactnative.dev/docs/navigation */}
+			
 			<Stack.Screen
 				name="index"
 				options={{
