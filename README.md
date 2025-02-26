@@ -26,6 +26,27 @@ The goal of this project is to replicate the core functionalities of Twitter, su
 - **Follow/Unfollow**: Users can follow and unfollow other users, and the follow status is reflected in the interface.  ( I have not completed this section yet)
 - **User Interface**: The UI is designed to resemble Twitter's layout with a home feed, profile section, and buttons for creating tweets.
 
+
+
+
+
+- Sample Setup Checklist
+Here’s a checklist to ensure everything is correctly installed:
+
+ - **Node.js and npm are installed.
+ - **Expo CLI is installed (expo --version).
+ - **Android Studio and AVD (Android Virtual Device) are set up.
+ - **JDK (Java Development Kit) is installed (for Android).
+ - **Firebase SDK is installed.
+ - **React Navigation is set up (if applicable).
+ - **Environment variables are configured (if necessary).
+ - **Android Studio for emulator
+ - **npm install @react-navigation/native
+ - **npm install react-native-screens react-native-safe-area-context
+
+  check package files for more!!! 
+
+
 ## What I Learned
 
 - **React Native**: I learned how to build mobile apps using React Native, including using components, managing state with hooks, and navigating between screens.
